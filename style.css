@@ -986,6 +986,9 @@ footer ul {
 }
 
 @media (max-width: 780px) {
+  h1 {
+    font-size: 1.3em;
+  }
   #desktop-navbar {
     display: none;
   }
@@ -1017,6 +1020,10 @@ footer ul {
 
   #logo-lanlands {
     width: 160px;
+  }
+  .bio-image img {
+    max-width: 150px;
+    max-height: 150px;
   }
 }
 
