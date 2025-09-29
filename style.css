@@ -728,9 +728,6 @@ footer ul {
 }
 
 @media (max-width: 780px) {
-  h1 {
-    font-size: 1.3em;
-  }
   #desktop-navbar {
     display: none;
   }
@@ -767,6 +764,7 @@ footer ul {
     max-width: 150px;
     max-height: 150px;
   }
+
 }
 
 @media (max-width: 720px) {
@@ -797,8 +795,11 @@ footer ul {
   .add-mt-responsive {
     margin-top: 2em;
   }
+
 }
 
 @media (max-width: 540px) {
-
+  .bio-image img{
+    display: none;
+  }
 }
