@@ -551,7 +551,7 @@ footer ul {
 }
 
 .outer-div {
-  height: 50vh;
+  height: 45vh;
   width: 100%;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
@@ -592,30 +592,12 @@ footer ul {
 }
 
 /* lanlands */
-#logo-lanlands {
-  width: 200px;
-}
-
-.lanlands-container {
-  width: 100%;
-  display: flex;
-  align-items: stretch;
-  border: none !important;
-}
-
 .gap1 {
   gap: 1em;
 }
 
 .align-items-center {
   align-items: center;
-}
-
-.lanlands-container video {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .lan-container {
@@ -630,70 +612,6 @@ footer ul {
   height: 100%;
   object-fit: cover;
   border-radius: 5px;
-}
-
-.lanlands-container .wide {
-  width: 80%;
-  text-align: left;
-}
-
-.lanlands-container .narrow {
-  width: 20%;
-  text-align: left;
-  background-color: #F5EFEB;
-  padding: 1.6em;
-  color: #101010;
-}
-
-.lanlands-container .mobile {
-  width: 30%;
-  text-align: left;
-}
-
-.lanlands-container .mobile video {
-  border-radius: 20px;
-  border:1px solid #F5EFEB;
-}
-.lanlands-container .grid {
-  width: 70%;
-  text-align: left;
-}
-
-.lanlands-container .details {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-  gap: 0.5em;
-}
-
-.lanlands-container .card-details {
-  width: 100%;
-  height: 9em;
-  display: flex;
-  align-items: stretch;
-  outline: 1px dashed black;
-  outline-offset: -5px;
-}
-
-.border-outlined {
-  outline: 1px dashed black;
-  outline-offset: -5px;
-  border: none;
-}
-
-.lanlands-container .card-details img, .lanlands-container .card-details video {
-  height: 100%;
-  width: 9em;
-}
-
-.bear-container {
-  position: absolute;
-  bottom: -7px;
-  left: 50px;
-  z-index: 10;
-}
-
-.bear-box {
-  position: relative;
 }
 
 /* teaching */
@@ -742,182 +660,6 @@ footer ul {
   background-color:#41aaca21;
   padding: 8px 12px;
   border-radius: 3px;
-}
-
-/* web */
-.outer-div-projects {
-  max-height: 450px;
-  width: 100%;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-  overflow: auto;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-  margin: 0;
-}
-
-#development .flex-right {
-  height: 450px;
-}
-
-.project-info {
-  font-family: "Figtree", sans-serif;
-  color: #A6A2A0;
-  background-color: #101010;
-  border: none;
-  cursor: pointer;
-  text-align: left;
-  padding-left: 0;
-}
-
-.svg-a {
-  filter: brightness(100%);
-}
-
-.svg-a:hover {
-  filter: brightness(80%);
-}
-
-.new-project-info {
-  margin-top: 2em;
-  margin-bottom: 6em;
-}
-
-.new-project-visual {
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  gap: 1em;
-  width: 100%;
-}
-
-.new-project-visual .video {
-  width: 60%;
-}
-
-.new-project-visual .video video {
-  width: 100%;
-  height: 100%;
-}
-
-.new-project-visual .image {
-  width: 40%;
-}
-
-.new-project-visual .image img {
-  width: 100%;
-  object-fit: cover;
-  height: 100%;
-}
-
-/* carousel */
-.carousel {
-  width: 100%;
-  height: fit-content;
-  overflow: hidden;
-  position: relative;
-}
-
-.slides {
-  display: flex;
-  transition: transform 0.5s ease;
-}
-
-.slide {
-  flex: 0 0 auto;
-  width: 100%;
-  position: relative;
-}
-
-.slide img {
-  object-fit: contain;
-  width: 100%;
-}
-
-.slide video {
-  width: 100%;
-}
-
-.carousel-btns {
-  position: relative;
-  bottom: 150px;
-  width: 95%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 10px;
-  z-index: 10;
-  margin: 0 auto;
-  opacity: 0;
-}
-
-.carousel-btns button {
-  color: #78787870;
-  background: none;
-  border: none;
-}
-
-.carousel-btns button:hover {
-  color: #757575;
-}
-
-.carousel-nav-btns {
-  margin-top: 1em;
-  display: flex;
-  justify-content: space-between;
-  gap: 1em;
-  align-items: flex-start;
-}
-
-.carousel-nav-btns .nav-btn {
-  font-family: "Figtree", sans-serif;
-  color: #A6A2A0;
-  background-color: #101010;
-  border: none;
-  cursor: pointer;
-  text-align: left;
-  padding-left: 0;
-}
-
-.nav-btn-container {
-  width: calc(100% / 3 - 1em);
-}
-
-.project-name {
-  text-transform: uppercase;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.project-name p, .project-name i {
-  margin: 0;
-  font-size: 1rem;
-}
-
-.project-name a {
-  font-size: 1rem;
-}
-
-.nav-btn p {
-  font-weight: 300;
-  font-size: 0.9rem;
-}
-
-.nav-btn:hover {
-  color: #F5EFEB;
-}
-
-.nav-btn:active {
-  color: #F5EFEB;
-}
-
-.nav-btn-container .nav-link i {
-  color: #ff6b6e;
-}
-
-.nav-btn-container .nav-link:hover i {
-  color:#2BC2A4;
 }
 
 /* languages */
