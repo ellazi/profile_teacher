@@ -560,6 +560,7 @@ footer ul {
   scrollbar-width: none;
   margin: 2em 0;
   padding: 0;
+  border-bottom: 1px solid #636161;
 }
 
 .outher-div::-webkit-scrollbar {
