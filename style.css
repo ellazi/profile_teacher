@@ -692,7 +692,7 @@ footer ul {
   }
   #intro {
     flex-direction: column;
-    height: 190vh;
+    height: 100vh;
   }
   .video-background {
     width: 100%;
@@ -701,6 +701,18 @@ footer ul {
   .intro-right {
     width: 100%;
     height: 90%;
+  }
+  .intro-right {
+    position: absolute;
+    z-index: 10;
+  }
+  .intro-right .scrolling-text-flex {
+    background-color: #ffffffd2;
+    padding: 10px 30px;
+    border-radius: 3px;
+  }
+  .intro-left {
+    position: relative;
   }
 }
 
@@ -724,7 +736,6 @@ footer ul {
     max-width: 150px;
     max-height: 150px;
   }
-
 }
 
 @media (max-width: 720px) {
